@@ -89,6 +89,7 @@ h2:after {
     width:70%; 
     margin-left: 15%;
     text-align: center;
+    margin-bottom: 45px;
 
 }
 
@@ -224,5 +225,48 @@ header{
 }  
 
 /*----------------------------------------------------*/
-/*SECTION */
+/*MEALS */
 /*----------------------------------------------------*/
+
+.section-meals {
+    padding: 0;
+}
+
+.meals-showcase {
+
+    list-style: none;
+    width: 100%;
+    
+}
+
+.meals-showcase li {
+
+    display: block;
+    float: left;
+    width: 25%;
+    
+}
+
+.meal-photo {
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: black;
+}
+
+.meal-photo img {
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+
+}
+
+.meal-photo img:hover {
+
+    transform: scale(1.03);
+    opacity: 1.0;
+    transition: transform 0.5s
+
+}
